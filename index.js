@@ -148,4 +148,4 @@ client.on('guildMemberAdd', member => {
 client.on('message', msg => {
   console.log(`Content: ${msg.content} by ${msg.author.id}, ${msg.author.note}, ${msg.author.username}, ${msg.author.createdTimestamp}`)
 });	
-client.login('NTcxODU5NzYxNDQ4ODc4MDkw.XMUAzw.8vWD1QIlENyP_VgycmYGbHtRAco')
+client.login('<login token>')
